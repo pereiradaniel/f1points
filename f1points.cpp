@@ -83,11 +83,15 @@ struct F1DriverPoints {
     }
 };
 
+// FEATURE RACE
+// Adds points to a driver's total according to position and how many times that position was achieved:
 void fr_add_points_to_driver(int multiplier, int position, struct F1DriverPoints &driver) {
     for (int i = 1; i <= multiplier; ++i)
         driver.feature_race_points(position);
 }
 
+// SPRINT RACE
+// Adds points to a driver's total according to position and how many times that position was achieved:
 void sr_add_points_to_driver(int multiplier, int position, struct F1DriverPoints &driver) {
     for (int i = 1; i <= multiplier; ++i)
         driver.sprint_race_points(position);
