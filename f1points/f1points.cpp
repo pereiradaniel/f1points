@@ -25,15 +25,15 @@ const struct Points {
     int eighth_sprint = 1;
 
     // Fastest Lap points system:
-    int fastest_lap =1;
+    int fastest_lap = 1;
 } points;
 
 // Struct for a driver's total points over a season:
 struct F1DriverPoints {
-    private:
+    private:    // private members
         int total_points = 0;   // Driver's total points;
 
-    public:
+    public:     // public members
         // Calculates the number of points awarded for fastest laps:
         // Takes parameter multiplier to represent number of times fastest lap has been awarded.
         void fastest_lap (int multiplier) {
