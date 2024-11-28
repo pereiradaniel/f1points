@@ -1,7 +1,5 @@
 # README
 
----
-
 ## C/C++ Formula 1 Projects:
 
 1. A program that calculates a driver's Formula 1 season points for the 2024 season.
@@ -12,4 +10,4 @@ File: [f1teams.c](./f1teams/f1teams.c)
 
 ---
 
-> Daniel Pereira 2024
+>Daniel Pereira 2024
