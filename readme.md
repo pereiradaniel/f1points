@@ -10,4 +10,4 @@ File: [f1teams.c](./f1teams/f1teams.c)
 
 ---
 
->Daniel Pereira 2024
+Daniel Pereira 2024
