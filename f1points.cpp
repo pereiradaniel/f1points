@@ -99,7 +99,7 @@ void sr_add_points_to_driver(int multiplier, int position, struct F1DriverPoints
 
 int main() {
     F1DriverPoints verstappen;
-    verstappen.total_points = 0;
+    verstappen.total_points = 0;  // Initialize points to 0.
     
     // FEATURE RACE POINTS TALLY
     // Add 1st place finish points:
@@ -122,8 +122,8 @@ int main() {
 
     // SPRINT RACE POINTS TALLY
     // Add 1st place finish points:
-    
     sr_add_points_to_driver(4, 1, verstappen);
+    
     // Add 4th place finish points:
     sr_add_points_to_driver(1, 4, verstappen);
 
