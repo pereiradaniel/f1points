@@ -1,0 +1,13 @@
+pereira@DESKTOP-HFSS3GK:/mnt/c/Users/perei/source/repos/f1points$ gcc -g f1teams.c -o f1teams -Wall
+pereira@DESKTOP-HFSS3GK:/mnt/c/Users/perei/source/repos/f1points$ ./f1teams
+Full Team Name: Scuderia Ferrari HP
+Base: Maranello, Italy
+Team Chief: Frédéric Vasseur
+Technical Chief(s): Loic Serra / Enrico Gualtieri
+Chassis: SF-24
+Power Unit: Ferrari
+First Team Entry: 1950
+World Championships: 16
+Highest Race Finish: 1(x249)
+Pole Positions: 253
+Fastest Laps: 263
