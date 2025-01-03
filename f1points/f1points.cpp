@@ -112,7 +112,7 @@ int main() {
     
     // FEATURE RACE POINTS TALLY
     // Add 1st place finish points:
-    verstappen.fr_add_points_to_driver(8, 1, verstappen);
+    verstappen.fr_add_points_to_driver(9, 1, verstappen);
         
     // Add 2nd place finish points:
     verstappen.fr_add_points_to_driver(4, 2, verstappen);
@@ -127,7 +127,7 @@ int main() {
     verstappen.fr_add_points_to_driver(4, 5, verstappen);
 
     // Add 6th place finish points:
-    verstappen.fr_add_points_to_driver(3, 6, verstappen);
+    verstappen.fr_add_points_to_driver(4, 6, verstappen);
 
     // SPRINT RACE POINTS TALLY
     // Add 1st place finish points:
@@ -136,10 +136,13 @@ int main() {
     // Add 4th place finish points:
     verstappen.sr_add_points_to_driver(1, 4, verstappen);
 
+    // Add 8th place finish points:
+    verstappen.sr_add_points_to_driver(1, 8, verstappen);
+
     // Add points for number of fastest laps:
     verstappen.fastest_lap(3);
 
     printf("Max Verstappen total points: %d\n", verstappen.get_total_points());
 }
 
-// Max Verstappen's points for 2024 season as of 27/Nov/2024 = 403
+// Max Verstappen's points at the conclusion of the 2024 season: 437
